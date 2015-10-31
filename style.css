@@ -1,0 +1,55 @@
+.tower {
+min-height: 200px;
+background-color: blue;
+margin-top:15px;
+}
+
+
+.class1{
+  border-radius: 15%;
+  width:50px;
+height:200px;
+background-color: orange;
+display:inline-block;
+}
+
+.class2{ border-radius: 15%;
+    width:50px;
+height:125px;
+background-color: green;
+display:inline-block;
+}
+.class3{
+    border-radius: 15%;
+    width:50px;
+height:75px;
+background-color: red;
+display:inline-block;
+}
+
+.class4{
+    border-radius: 15%;
+    width:50px;
+height:50px;
+background-color: cyan;
+display:inline-block;
+}
+
+.class5{
+    border-radius: 15%;
+    width:50px;
+height:30px;
+background-color: purple;
+display:inline-block;
+}
+
+.selected{
+/*border:10px solid yellow;*/
+box-shadow: 5px 5px 5px pink;
+position:relative;
+}
+
+p{
+color:white
+
+}
