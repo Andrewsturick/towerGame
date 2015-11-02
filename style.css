@@ -1,46 +1,63 @@
 .tower {
-min-height: 200px;
+min-height: 700px;
+width: 33%;
 background-color: blue;
 margin-top:15px;
+display:inline-block;
+min-width: 200px;
+position:relative;
 }
-
+.contentContain{
+  display:table;
+  margin: 0 auto;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:100%;
+margin-align: center;
+}
 
 .class1{
+  margin:auto;
   border-radius: 15%;
-  width:50px;
-height:200px;
+  width:150px;
+height:50px;
 background-color: orange;
-display:inline-block;
+
 }
 
-.class2{ border-radius: 15%;
-    width:50px;
-height:125px;
+.class2{
+border-radius: 15%;
+margin:auto;
+width:100px;
+height:50px;
 background-color: green;
-display:inline-block;
+
 }
 .class3{
-    border-radius: 15%;
-    width:50px;
-height:75px;
+border-radius: 15%;
+width:75px;
+height:50px;
 background-color: red;
-display:inline-block;
+margin:auto;
 }
 
 .class4{
-    border-radius: 15%;
-    width:50px;
+margin:auto;
+border-radius: 15%;
+width:50px;
 height:50px;
 background-color: cyan;
-display:inline-block;
+margin:auto;
 }
 
 .class5{
-    border-radius: 15%;
-    width:50px;
-height:30px;
+margin:auto;
+border-radius: 15%;
+width:30px;
+height:50px;
 background-color: purple;
-display:inline-block;
+
 }
 
 .selected{
@@ -49,7 +66,16 @@ box-shadow: 5px 5px 5px pink;
 position:relative;
 }
 
-p{
-color:white
+body{
+  color:pink;
+  font-weight: bolder;
+  background-color:green;
+  text-align:center;
+}
 
+.submit
+{
+  margin-left: 35px;
+  background-color: pink;
+  width:75;px;
 }
